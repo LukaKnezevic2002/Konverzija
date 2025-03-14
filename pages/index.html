@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverzija - Regionalna digital marketing konferencija</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="inner">
+
+    <div class="cart">
+        <div class="header">
+            <img src="../images/logo_konverzija.svg" alt="Konverzija logo">
+        </div>
+    
+        <div class="steps">
+            <div class="container">
+                <div class="row">
+                    <div class="step active">
+                        <span class="number">1</span>
+                        <div>
+                            <span class="mobile-text">Korak 1 od 4</span>
+                            <span class="text">Podaci o naručitelju</span>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="number">2</span>
+                        <div>
+                            <span class="mobile-text">Korak 2 od 4</span>
+                            <span class="text">Narudžba</span>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="number">3</span>
+                        <span class="text">Podaci o učesnicima</span>
+                    </div>
+                    <div class="step">
+                        <span class="number">4</span>
+                        <span class="text">Plaćanje</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+        <div class="container">
+                <div class="podaci-o-narucitelju">
+                    <h2>Podaci o naručitelju</h2>
+                    <div class="form-container">
+                        <div class="column-12">
+                        <div class="column-5 lice">
+                                <div class="narucujem-kao">
+                                    <label>Naručujem kao:</label>
+                                </div>
+                                <div class="pravno-fizicko-lice">
+                                    <div class="pravno">
+                                        <input type="radio" value="pravno" id="pravno" name="lice" checked>
+                                        <label>Pravno lice</label>
+                                    </div>
+                                    <div class="fizicko">
+                                        <input type="radio" value="fizicko" id="fizicko" name="lice">
+                                        <label for="">Fizičko lice</label>
+                                    </div>
+                                </div>
+                        </div>
+    
+                        
+                        <div class="dodatak">
+                            <div class="column-12 naziv-i-pdv">
+                                <div class="column-5 naziv">
+                                    <label for="">Naziv firme*</label><br>
+                                    <input type="text" name="naziv" placeholder="Unesite naziv firme"><br>
+                                </div>
+                                <div class="column-5 pdv">
+                                    <label for="">PDV broj*</label><br>
+                                    <input type="text" name="pdv" placeholder="Unesite PDV broj:"><br>
+                                </div>
+                            </div>
+                        </div>
+        
+            
+                        <div class="column-12 naziv-i-pdv">
+                            <div class="column-5 naziv">
+                                <label for="">Ime i prezime naručitelja*</label><br>
+                                <input type="text" name="naziv" placeholder="Unesite ime i prezime">
+                            </div>
+                            <div class="column-5 pdv">
+                                <label for="">Email naručitelja*</label>
+                                <input type="text" name="pdv" placeholder="Unesite email naručitelja">
+                            </div>
+                        </div>
+            
+                        <div class="column-12 naziv-i-pdv">
+                            <div class="column-5 naziv">
+                                <label for="">Broj telefona*</label><br>
+                                <div class="column-4 column-broj">
+                                    <input type="tel" placeholder="+387" class="pozivni-broj">
+                                </div>
+                                <div class="column-8 column-tel">
+                                    <input type="tel" placeholder="Unesite broj telefona" class="broj">
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="column-12 naziv-i-pdv">
+                            <div class="column-5 naziv">
+                                <label for="">Adresa*</label>
+                                <input type="text" placeholder="Unesite ulicu i broj">
+                            </div>
+                            <div class="column-5 naziv">
+                                <label for="" class="postanski-broj">Poštanski broj*</label>
+                                <label for="">Grad*</label><br>
+                                <div class="column-4 column-broj">
+                                    <input type="tel" placeholder="Unesite broj" class="pozivni-broj" id="postanski-broj">
+                                </div>
+                                <div class="column-8 column-tel">
+                                    <input type="tel" placeholder="Unesite ime grada" class="broj" id="grad">
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="column-5">
+                            <div class="zemlja">
+                                <label for="">Zemlje:</label><br><br>
+                            </div>
+                            <div class="zemlje">
+                                <div class="bih">
+                                    <input type="radio" value="pravno" id="bih" name="zemlja" checked>
+                                    <label>Bih</label>
+                                </div>
+                                <div class="srb">
+                                    <input type="radio" value="pravno" id="srbija" name="zemlja">
+                                    <label>Srbija</label>
+                                </div>
+                                <div class="hrv">
+                                    <input type="radio" value="pravno" id="hrvatska" name="zemlja">
+                                    <label>Hrvatska</label>
+                                </div>
+                                <div class="ost">
+                                    <input type="radio" value="pravno" id="ostali" name="zemlja">
+                                    <label>Osatli</label>
+                                </div>
+                                <div class="unesi-ostale">
+                                    <input type="text" name="zemlje-input" id="zemlje-input" class="zemlje-input" placeholder="Unesite ime zemlje">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-12 dalje">
+                            <a href="index2.html" class="dalje-btn">Dalje</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
